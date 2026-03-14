@@ -117,6 +117,10 @@ footer {
     font-size: 12px;
     margin-top: 20px;
 }
+footer p a {
+    margin: 5px 0;
+    color: #ccc;   
+}
 
 button {
   transition: transform 0.1s ease, box-shadow 0.1s ease;
