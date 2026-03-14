@@ -88,3 +88,20 @@ document.addEventListener("keydown", function(event) {
   if (key === "Enter") calculateResult();
   if (key === "Backspace") deleteLast();
 });
+
+
+function calculateResult() {
+  try {
+    let result = eval(display.value);
+
+    const history = document.getElementById("history");
+    const entry = document.createElement("div");
+    entry.textContent = display.value + " = " + result;
+
+    history.prepend(entry);
+
+    display.value = result;
+  } catch {
+    display.value = "Error";
+  }
+}
