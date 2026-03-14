@@ -25,6 +25,3 @@ Sahil
 CSE student from Bangladesh 🚀
 
                                   
-## Demo Video
-
-https://github.com/Sahil2007BD/Simple-Web-Calculator/blob/main/demo.mp4
