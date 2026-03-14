@@ -24,4 +24,8 @@ This project was created as a beginner project while learning web development.
 Sahil
 CSE student from Bangladesh 🚀
 
+
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/fQYJOKV0zog/0.jpg)](https://youtube.com/watch?v=fQYJOKV0zog)
                                   
