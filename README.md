@@ -27,5 +27,5 @@ CSE student from Bangladesh 🚀
 
 ## 🎥 Project Demo
 
-https://github.com/Sahil2007BD/Simple-Web-Calculator/blob/main/demo.mp4
+<video src="https://github.com/Sahil2007BD/Simple-Web-Calculator/raw/main/demo.mp4" controls width="600"></video>
                                   
