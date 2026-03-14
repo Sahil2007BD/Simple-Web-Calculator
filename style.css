@@ -9,11 +9,11 @@ body{
 height:100vh;
 display:flex;
 flex-direction:column;
-justify-content:space-between;
 background:linear-gradient(135deg,#141e30,#243b55);
 }
 
 .container{
+flex:1;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -37,16 +37,17 @@ padding:10px;
 margin-bottom:10px;
 border:none;
 border-radius:10px;
-background:blue;
+background:linear-gradient(145deg,#717385,#202430);
 color:white;
 }
 
 .history{
-color:#ccc;
+color:#bbb;
 font-size:14px;
 height:20px;
 text-align:right;
 margin-bottom:5px;
+opacity:0.8;
 }
 
 .buttons{
@@ -67,7 +68,7 @@ transition:0.2s;
 }
 
 button:hover{
-background:rgba(255,255,255,0.25);
+background:rgba(2, 1, 1, 0.25);
 transform:scale(1.05);
 }
 
@@ -87,21 +88,22 @@ background:#00c896;
 background:#00e5a8;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background: rgba(255,255,255,0.1);
-    margin: 0;
-    width: 100%;
+
+header{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:15px;
+padding:15px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
 }
 
-#logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-    border-radius: 50%;
+#logo{
+width:60px;
+height:60px;
+border-radius:50%;
+object-fit:cover;
 }
 
 #text-holder {
@@ -117,7 +119,7 @@ footer {
     font-size: 12px;
     margin-top: 20px;
 }
-footer p a {
+footer p a{
     margin: 5px 0;
     color: #ccc;   
 }
