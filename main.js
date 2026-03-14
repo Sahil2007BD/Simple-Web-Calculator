@@ -73,5 +73,18 @@ if(key === "Backspace"){
 expression = expression.slice(0,-1)
 display.value = expression
 }
-
 })
+
+
+document.addEventListener("keydown", function(event) {
+  const key = event.key;
+
+  if (!isNaN(key)) appendValue(key);
+  if (key === ".") appendValue(".");
+  if (key === "+") appendOperator("+");
+  if (key === "-") appendOperator("-");
+  if (key === "*") appendOperator("*");
+  if (key === "/") appendOperator("/");
+  if (key === "Enter") calculateResult();
+  if (key === "Backspace") deleteLast();
+});
