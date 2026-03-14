@@ -23,3 +23,8 @@ This project was created as a beginner project while learning web development.
 
 Sahil
 CSE student from Bangladesh 🚀
+
+                                  
+## Demo Video
+
+https://github.com/Sahil2007BD/Simple-Web-Calculator/blob/main/demo.mp4
