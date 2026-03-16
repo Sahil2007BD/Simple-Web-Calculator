@@ -1,5 +1,7 @@
 # Simple Web Calculator
 
+Check it out : https://sahil2007bd.github.io/Simple-Web-Calculator/
+
 A basic calculator built using web technologies.
 This project performs simple arithmetic operations like addition, subtraction, multiplication, and division.
 
